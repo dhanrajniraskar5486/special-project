@@ -5,7 +5,7 @@ import { Profilecard } from './cardsdetail/newprofile';
 function App(props) {
 
   function register(input) {
-    alert('Rohit Bhosale')
+    alert('Prajwal Gaulkar')
   }
 
   function login() {

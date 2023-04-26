@@ -2,10 +2,13 @@ import './newprofile.css'
 
 
 export function Profilecard(props) {
-    const { name, designation, jobDiscription, image, } = props
+    const { name,
+          designation,
+          jobDiscription, 
+          image, } = props
 
     function Buttonclick() {
-        alert('Saurabh Sakhare')
+        alert('kaustubh zade')
     }
 
     return (
