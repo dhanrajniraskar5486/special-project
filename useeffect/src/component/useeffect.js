@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import './useeffect.css'
 
 function Imagechange() {
-  const [imageIndex, setImageIndex] = useState(0);
+  const [imageIndex, setImageIndex] = useState("");
   const images = [
     "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=600",
     "https://images.pexels.com/photos/3680912/pexels-photo-3680912.jpeg?auto=compress&cs=tinysrgb&w=600",

@@ -4,7 +4,14 @@ export function ProductCard({productDetails,alertfun , button}){
 
 
    const    
-      {   productId , productPic ,  productName , Brand , productDescription,Price ,Rating,} =productDetails
+      { productId , 
+        productPic , 
+        productName ,
+        Brand ,
+        productDescription,
+        Price ,
+        Rating,
+    } =productDetails
     
      
 return(

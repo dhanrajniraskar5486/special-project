@@ -1,11 +1,11 @@
-import { Ue } from './component/pr';
-import './App.css';
 
+import './App.css';
+import {FetchData}  from './component/fetch'
 
 function App() {
   return (
     <div className="App">
-   <Ue/>
+      <FetchData/>
     </div>
   );
 }
