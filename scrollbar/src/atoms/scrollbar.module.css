@@ -1,0 +1,87 @@
+.parent {
+    display: flex;
+    align-items: center;
+    border: 3px solid goldenrod;
+    margin-top: 5%;
+    overflow: scroll;
+    height: 400px;
+    padding: 3rem;
+    width: 80%;
+    background-color: rgb(15, 164, 115);
+    margin: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-bottom: 40%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, 
+    rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+
+/* Card */
+.Card {
+    border: 2px solid rgb(209, 113, 29);
+    min-width: 400px;
+    min-height: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-right: 2rem;
+    background-color: rgba(97, 151, 74, 0.823);
+    padding: 15px;
+
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.Name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: solid black;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+.image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 1px solid rgb(3, 5, 10);
+    background-color:azure;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.parent::-webkit-scrollbar {
+    display: none;
+}
+.Div2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+
+.Div1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(238, 82, 82);
+    margin-top: auto;
+
+}
+
+.team {
+    font-size: 25px;
+    color: solid rgb(32, 31, 31);
+
+}
+.teamna {
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+img {
+    height: 150px;
+
+}
