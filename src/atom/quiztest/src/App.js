@@ -1,11 +1,10 @@
-import React from 'react';
-import Navbar  from './atom/navbar'
 import './App.css';
+import QuizTest from './Components/Molecules/quiz';
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
+     <QuizTest/>
     </div>
   );
 }

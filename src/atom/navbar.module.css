@@ -1,0 +1,42 @@
+.nav2{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    padding-top: 30px;
+
+
+
+}
+.nav3{
+    display: flex;
+    color: yellowgreen;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.nav{
+    height: 70px;
+    background-color: rgb(58, 18, 93);
+    
+}
+.new{
+    height: 300px;
+    width: 300px;
+    padding-top: 150px;
+    border-radius:50px ;
+}
+.newone{
+    color: aliceblue;
+    display: none;
+}
+@media screen and (min-width: 405px) and ( max-width: 650px){
+   .newone{
+    display: block;
+   }
+   .nav2{
+    display: flex;
+    flex-direction: column;
+   }
+}
+
+
