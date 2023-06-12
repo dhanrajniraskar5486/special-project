@@ -9,7 +9,7 @@ Our team has 4 members, and our teamates are-
 4. Divyansh Sahu (roll no : fn-tec-79NYB)
 
 First of all, we had install React and their dependencies  and some libraries Just like Mui, React-Icons, Router-Dom, react dnd, react moment, react popup.
-deploy link : https://kanban-project-xg8i.vercel.app/
+# deploy link : https://kanban-project-xg8i.vercel.app/
 
 # Getting Started with Create React App
 
