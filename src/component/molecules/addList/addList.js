@@ -44,7 +44,7 @@ export default function AddList() {
     localStorage.setItem("listData", JSON.stringify(updatedList));
    
   }
-
+  
   return (
     <div style={{ display: "flex", margin: "20px" }}>
       <div style={{ display: "flex", marginLeft: "20px" }}>
